@@ -1,1 +1,2 @@
 # RECMICRO
+This tool provides an architecture agnostic methodology to reconfigure the design at pipeline stage level or thread level for DSP accelerators and microprocessor-based systems respectively. The tool has combination of python and C++ scripts. The pyhton scripts are mainly to handle text level parsing of netlist and light algorithms. However, the C++ scripts are mainly to handle the complicated graph related algorithms. 
