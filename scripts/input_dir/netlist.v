@@ -1,0 +1,23 @@
+module netlist(IN, CLOCK, OUT );
+  input IN,CLOCK;
+  output OUT;
+  wire wout_3,win_4,wout_4,win_5,wout_5,win_6,wout_6,win_7,wout_7,win_8,wout_8,win_9,wout_9,win_10,wout_10,win_nor,win_xor;
+  DFFPOSX1 FF3 (.D(IN), .CLK(CLOCK), .Q(wout_3));
+  DFFPOSX1 FF4 (.D(win_4), .CLK(CLOCK), .Q(wout_4));
+  DFFPOSX1 FF5 (.D(win_5), .CLK(CLOCK), .Q(wout_5));
+  DFFPOSX1 FF6 (.D(win_6), .CLK(CLOCK), .Q(wout_6));
+  DFFPOSX1 FF7 (.D(win_7), .CLK(CLOCK), .Q(wout_7));
+  DFFPOSX1 FF8 (.D(win_8), .CLK(CLOCK), .Q(wout_8));
+  DFFPOSX1 FF9 (.D(win_9), .CLK(CLOCK), .Q(wout_9));
+  DFFPOSX1 FF10 (.D(win_10), .CLK(CLOCK), .Q(wout_10));
+  INVX1 U1 (.A(wout_3), .Y(win_4));
+  INVX1 U2 (.A(wout_3), .Y(win_5));
+  INVX1 U3 (.A(wout_4), .Y(win_6));
+  INVX1 U4 (.A(wout_5), .Y(win_nor));
+  NOR2X1 U5 (.A(wout_6), .B(win_nor), .Y(win_7));
+  INVX1 U6 (.A(wout_8), .Y(win_xor));
+  INVX1 U7 (.A(wout_7), .Y(win_9));
+  XOR2X1 U8 (.A(win_xor), .B(wout_9), .Y(win_10));
+  INVX1 U9 (.A(wout_6), .Y(win_8));
+  INVX1 U10 (.A(wout_10), .Y(OUT));
+endmodule

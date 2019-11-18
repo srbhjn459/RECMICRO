@@ -1,0 +1,8 @@
+win_10:FF10:wout_10->wout_10:U10:OUT
+win_9:FF9:wout_9->win_10:FF10:wout_10,win_8:FF8:wout_8->win_10:FF10:wout_10
+win_7:FF7:wout_7->win_9:FF9:wout_9,win_8:FF8:wout_8->win_10:FF10:wout_10
+win_5:FF5:wout_5->win_7:FF7:wout_7,win_6:FF6:wout_6->win_8:FF8:wout_8,win_6:FF6:wout_6->win_7:FF7:wout_7
+win_5:FF5:wout_5->win_7:FF7:wout_7,win_4:FF4:wout_4->win_6:FF6:wout_6
+IN:FF3:wout_3->win_5:FF5:wout_5,IN:FF3:wout_3->win_4:FF4:wout_4
+dummy:IN:IN->IN:FF3:wout_3
+:dummy:dummy->dummy:IN:IN

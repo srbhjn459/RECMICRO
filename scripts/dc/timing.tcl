@@ -1,0 +1,11 @@
+ report_timing -from IN -to FF3/D
+ report_timing -from FF3/Q -to FF4/D
+ report_timing -from FF3/Q -to FF5/D
+ report_timing -from FF4/Q -to FF6/D
+ report_timing -from FF5/Q -to FF7/D
+ report_timing -from FF6/Q -to FF7/D
+ report_timing -from FF6/Q -to FF8/D
+ report_timing -from FF7/Q -to FF9/D
+ report_timing -from FF8/Q -to FF10/D
+ report_timing -from FF9/Q -to FF10/D
+ report_timing -from FF10/Q -to OUT

@@ -1,0 +1,59 @@
+
+                      Design Compiler Graphical
+                            DC Ultra (TM)
+                             DFTMAX (TM)
+                         Power Compiler (TM)
+                           DesignWare (R)
+                           DC Expert (TM)
+                         Design Vision (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                            DFT Compiler
+                        Library Compiler (TM)
+                         Design Compiler(R)
+
+          Version J-2014.09-SP2 for RHEL64 -- Nov 25, 2014
+               Copyright (c) 1988-2014 Synopsys, Inc.
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+Initializing...
+Initializing gui preferences from file  /home/a0117963/.synopsys_dv_prefs.tcl
+remove_design -all
+1
+set target_library "/home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/gscl45nm.db"
+/home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/gscl45nm.db
+set link_library "/home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/gscl45nm.db"
+/home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/gscl45nm.db
+read_file -format verilog /home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/netlist.v
+Loading db file '/home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/gscl45nm.db'
+Loading db file '/lxap13/synopsys/syn_vJ-2014.09-SP2/libraries/syn/gtech.db'
+Loading db file '/lxap13/synopsys/syn_vJ-2014.09-SP2/libraries/syn/standard.sldb'
+  Loading link library 'gscl45nm'
+  Loading link library 'gtech'
+Loading verilog file '/home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/netlist.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/netlist.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/netlist.db:netlist'
+Loaded 1 design.
+Current design is 'netlist'.
+netlist
+link
+
+  Linking design 'netlist'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  gscl45nm (library)          /home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO/input_dir/gscl45nm.db
+
+1
+source /home/a0117963/sandbox19082015/intel_work/perl_cpp_env/RECMICRO//dc/timing.tcl > timing.txt
+exit
+
+Thank you...

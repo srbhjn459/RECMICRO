@@ -1,0 +1,333 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: IN (input port)
+  Endpoint: FF3 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  IN (in)                                  0.00       0.00 r
+  FF3/D (DFFPOSX1)                         0.00       0.00 r
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF3 (rising edge-triggered flip-flop)
+  Endpoint: FF4 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF3/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF3/Q (DFFPOSX1) <-                      0.10       0.10 f
+  U1/Y (INVX1)                             0.00       0.11 r
+  FF4/D (DFFPOSX1)                         0.00       0.11 r
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF3 (rising edge-triggered flip-flop)
+  Endpoint: FF5 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF3/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF3/Q (DFFPOSX1) <-                      0.10       0.10 f
+  U2/Y (INVX1)                             0.00       0.11 r
+  FF5/D (DFFPOSX1)                         0.00       0.11 r
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF4 (rising edge-triggered flip-flop)
+  Endpoint: FF6 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF4/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF4/Q (DFFPOSX1) <-                      0.10       0.10 f
+  U3/Y (INVX1)                             0.00       0.10 r
+  FF6/D (DFFPOSX1)                         0.00       0.10 r
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF5 (rising edge-triggered flip-flop)
+  Endpoint: FF7 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF5/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF5/Q (DFFPOSX1) <-                      0.10       0.10 f
+  U4/Y (INVX1)                             0.00       0.11 r
+  U5/Y (NOR2X1)                            0.01       0.11 f
+  FF7/D (DFFPOSX1)                         0.00       0.11 f
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF6 (rising edge-triggered flip-flop)
+  Endpoint: FF7 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF6/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF6/Q (DFFPOSX1) <-                      0.10       0.10 f
+  U5/Y (NOR2X1)                            0.03       0.13 r
+  FF7/D (DFFPOSX1)                         0.00       0.13 r
+  data arrival time                                   0.13
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF6 (rising edge-triggered flip-flop)
+  Endpoint: FF8 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF6/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF6/Q (DFFPOSX1) <-                      0.10       0.10 f
+  U9/Y (INVX1)                             0.00       0.11 r
+  FF8/D (DFFPOSX1)                         0.00       0.11 r
+  data arrival time                                   0.11
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF7 (rising edge-triggered flip-flop)
+  Endpoint: FF9 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF7/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF7/Q (DFFPOSX1) <-                      0.10       0.10 f
+  U7/Y (INVX1)                             0.00       0.10 r
+  FF9/D (DFFPOSX1)                         0.00       0.10 r
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF8 (rising edge-triggered flip-flop)
+  Endpoint: FF10 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF8/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF8/Q (DFFPOSX1) <-                      0.10       0.10 f
+  U6/Y (INVX1)                             0.01       0.12 r
+  U8/Y (XOR2X1)                            0.03       0.15 r
+  FF10/D (DFFPOSX1)                        0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF9 (rising edge-triggered flip-flop)
+  Endpoint: FF10 (rising edge-triggered flip-flop)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF9/CLK (DFFPOSX1)                       0.00       0.00 r
+  FF9/Q (DFFPOSX1) <-                      0.11       0.11 f
+  U8/Y (XOR2X1)                            0.05       0.15 r
+  FF10/D (DFFPOSX1)                        0.00       0.15 r
+  data arrival time                                   0.15
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : netlist
+Version: J-2014.09-SP2
+Date   : Sat Oct 19 23:36:22 2019
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: FF10 (rising edge-triggered flip-flop)
+  Endpoint: OUT (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  FF10/CLK (DFFPOSX1)                      0.00       0.00 r
+  FF10/Q (DFFPOSX1) <-                     0.10       0.10 f
+  U10/Y (INVX1)                            0.00       0.10 r
+  OUT (out)                                0.00       0.10 r
+  data arrival time                                   0.10
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
